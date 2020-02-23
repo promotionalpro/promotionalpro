@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Society of Green Dust Vendorlist</title>
+<img src="greendust.png">
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #E8E8E8;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js Twilight theme
+ * Based (more or less) on the Twilight theme originally of Textmate fame.
+ * @author Remy Bach
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+	color: white;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	text-shadow: 0 -.1em .2em black;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"],
+:not(pre) > code[class*="language-"] {
+	background: hsl(0, 0%, 8%); /* #141414 */
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	border-radius: .5em;
+	border: .3em solid hsl(0, 0%, 33%); /* #282A2B */
+	box-shadow: 1px 1px .5em black inset;
+	margin: .5em 0;
+	overflow: auto;
+	padding: 1em;
+}
+
+pre[class*="language-"]::-moz-selection {
+	/* Firefox */
+	background: hsl(200, 4%, 16%); /* #282A2B */
+}
+
+pre[class*="language-"]::selection {
+	/* Safari */
+	background: hsl(200, 4%, 16%); /* #282A2B */
+}
+
+/* Text Selection colour */
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	border-radius: .3em;
+	border: .13em solid hsl(0, 0%, 33%); /* #545454 */
+	box-shadow: 1px 1px .3em -.1em black inset;
+	padding: .15em .2em .05em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: hsl(0, 0%, 47%); /* #777777 */
+}
+
+.token.punctuation {
+	opacity: .7;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.tag,
+.token.boolean,
+.token.number,
+.token.deleted {
+	color: hsl(14, 58%, 55%); /* #CF6A4C */
+}
+
+.token.keyword,
+.token.property,
+.token.selector,
+.token.constant,
+.token.symbol,
+.token.builtin {
+	color: hsl(53, 89%, 79%); /* #F9EE98 */
+}
+
+.token.attr-name,
+.token.attr-value,
+.token.string,
+.token.char,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable,
+.token.inserted {
+	color: hsl(76, 21%, 52%); /* #8F9D6A */
+}
+
+.token.atrule {
+	color: hsl(218, 22%, 55%); /* #7587A6 */
+}
+
+.token.regex,
+.token.important {
+	color: hsl(42, 75%, 65%); /* #E9C062 */
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+pre[data-line] {
+	padding: 1em 0 1em 3em;
+	position: relative;
+}
+
+/* Markup */
+.language-markup .token.tag,
+.language-markup .token.attr-name,
+.language-markup .token.punctuation {
+	color: hsl(33, 33%, 52%); /* #AC885B */
+}
+
+/* Make the tokens sit above the line highlight so the colours don't look faded. */
+.token {
+	position: relative;
+	z-index: 1;
+}
+
+.line-highlight {
+	background: -moz-linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0)); /* #545454 */
+	background: -o-linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0)); /* #545454 */
+	background: -webkit-linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0)); /* #545454 */
+	background: hsla(0, 0%, 33%, 0.25); /* #545454 */
+	background: linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0)); /* #545454 */
+	border-bottom: 1px dashed hsl(0, 0%, 33%); /* #545454 */
+	border-top: 1px dashed hsl(0, 0%, 33%); /* #545454 */
+	left: 0;
+	line-height: inherit;
+	margin-top: 0.75em; /* Same as .prism’s padding-top */
+	padding: inherit 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	white-space: pre;
+	z-index: 0;
+}
+
+.line-highlight:before,
+.line-highlight[data-end]:after {
+	background-color: hsl(215, 15%, 59%); /* #8794A6 */
+	border-radius: 999px;
+	box-shadow: 0 1px white;
+	color: hsl(24, 20%, 95%); /* #F5F2F0 */
+	content: attr(data-start);
+	font: bold 65%/1.5 sans-serif;
+	left: .6em;
+	min-width: 1em;
+	padding: 0 .5em;
+	position: absolute;
+	text-align: center;
+	text-shadow: none;
+	top: .4em;
+	vertical-align: .3em;
+}
+
+.line-highlight[data-end]:after {
+	bottom: .4em;
+	content: attr(data-end);
+	top: auto;
+}
+</style>
+
+<style type="text/css">
+pre.line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+	position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+	.line-numbers-rows > span {
+		pointer-events: none;
+		display: block;
+		counter-increment: linenumber;
+	}
+
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+			text-align: right;
+		}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0"></h2>
+
+	<center><b>  <section class="features" id="origins">
+    <div class="container">
+      <h2>What is Mitragynine?</h2>
+      <p>Mitragyna speciosa, commonly known as kratom, is a tropical evergreen tree in the coffee family native to Southeast Asia. M. speciosa is indigenous to Thailand, Indonesia, Malaysia, Myanmar, and Papua New Guinea, where it has been used in
+        traditional medicines since at least the nineteenth century. Kratom has opioid properties and some stimulant-like effects.</p>
+
+      <p>Mitragyna speciosa was first formally described by the Dutch colonial botanist Pieter Korthals in 1839, who named it as such; it was renamed and reclassified several times before George Darby Haviland provided the final name and
+        classification in 1859. In 1836, kratom was reported to have been used as an opium substitute in Malaysia. Kratom was also used as an opium substitute in Thailand in the nineteenth century.</p>
+
+      <p>In addition to the large range of medicinal applications, this plant also has many other positive secondary properties such as high-antioxant and vitamin and mineral content, which has made it an item of interest for general health purposes
+        as well. Kratom is safe in almost every regard, as there have been no known deaths from this plant, except in combination with other dangerous substances or with pre-existing conditions.</p>
+    </div>
+  </section>
+  <hr>
+
+  <section class="features" id="benefits">
+    <div class="container">
+      <h2>Medicinal Benefits</h2>
+      <p>Some people take it for managing chronic pain, anxiety, PTSD, treating opioid withdrawal symptoms, as well as for recreational purposes. The onset of effects typically begins within thirty minutes and lasts for two to six hours.</p>
+
+      <p>In cultures where the plant grows, kratom has been used in traditional medicine. The leaves are chewed to relieve musculoskeletal pain and increase energy, appetite, and sexual desire in ways similar to khat and coca. The leaves or extracts
+        from them are used to heal wounds and as a local anesthetic. Extracts and leaves have been used to treat coughs, diarrhea, and intestinal infections. They are also used as intestinal deworming agents in Thailand. Kratom is often used by
+        workers in laborious or monotonous professions to stave off exhaustion as well as a mood enhancer and painkiller. In Thailand, kratom was <i>"used as a snack to receive guests and was part of the ritual worship of ancestors and gods"</i>.
+        The herb is very bitter and is generally combined with a sweetener.</p>
+
+      <h3>Kratom as a Pain Killer</h3>
+      <p>Kratom’s pain-killing effects are very pronounced, and are much more effective than OTC substances when dealing with chronic pain. It is these potent pain-killing effects that have allowed many to become entirely pharmaceutical free (an
+        inspiringly common event within the kratom community). As public awareness increases and fear-mongering and outright disinformation dissipate, you can expect to see this plant as a commonplace alternative to more riskier opiate medication.</p>
+
+      <p>Kratom can effectively reduce pain from conditions such as:
+        <ul>
+          <li>Migraines</li>
+          <li>Cluster Headaches</li>
+          <li>Back Pain</li>
+          <li>Minor Injuries: Burns, Scrapes, Broken Bones</li>
+          <li>Arthritis</li>
+          <li>Multiple Sclerosis</li>
+          <li>Carpal Tunnel</li>
+          <li>Torn Muscles</li>
+          <li>Scoliosis</li>
+          <li>Neck Pain & Soreness</li>
+          <li>Abdominal Pain</li>
+          <li>Chest Pain</li>
+        </ul>
+      </p>
+      <p>This list is far from comprehensive, as kratom’s pain relieving effects occur within the brain, as opposed to OTC pain medications which have to work locally and are largely limited to pain caused by inflammation.</p>
+
+      <p>The primary reason kratom is so effective for pain are it’s two primary painkilling alkaloids: Mitragynine, and 7-OH-mitragynine. Which both have agonist activity at mu and delta opiod receptors, effectively dampening the body’s perception
+        of pain at the source. As a result, those who are looking for pain relief from kratom have had best effects with strains high in these two alkaloids. Leaf alkaloid content can vary from plant to plant, and from strain to strain, however,
+        there are a few strains which seem to be the most effective for pain overall. For this purpose, red veined strains tend to be the most reliable for pain relieving effects, although a good green vein can be just as effective.</p>
+
+      <h3>Kratom for Opiate Withdral</h3>
+      <p>Because of this plant’s pain-killing and mood-lifting effects (due largely to 7-OH-mitragynine), it has been very effectively used to quit opiates and dampen the withdrawal symptoms of both prescribed pain medication as well as illegal
+        narcotics. You can find many cases of people using kratom for opiate withdrawal and addiction to both help transition to sobriety, or as a form of maintenance substance to combat cravings and post acute withdrawals syndrome (PAWS).</p>
+      <p>As with pain relief, green veins can be used, however, because some green veins tend to be more stimulating (not ideal), it is common practice to stick with with red veins, the same advice holds true for maeng da strains.</p>
+
+      <h3>Kratom for Psychiatric Conditions</h3>
+      <p>The psychological effects of kratom are of a very unique quality in comparison to other plants found in nature, as the plant contains both sedating and stimulating properties; these effects can differ depending on the strain, plant and
+        one’s own personal body chemistry.</p>
+
+      <h4>Depression Benefits</h4>
+      <p>Nearly any quality strain can cause general mood-lifting, but the differences in strain can shift the spectrum of effects between stimulating and sedating, which can largely change the qualities of the experience.</p>
+
+      <p>According to quite a few anecdotal reports, this plant may also be beneficial for the treatment of depression; however, not every strain is fit for this purpose. The more sedating strains may have some temporary effects on depression, but
+        are likely lacking in effectiveness long term due to more rapid development of tolerance.</p>
+
+      <p>Some green vein strains have been used for well-rounded depression relief, though individual brain-chemistry may come into play. Because everyone has different brain chemistry and little-to-no clinical research has been done in this regard,
+        it would be wise to gain familiarity with this plant and its effects before using it for this purpose. For most people, the strongest impact of kratom on depression is a temporary mood boost to allow you to push through rough moments, as
+        opposed to a daily supplement (although some have had success with that). If you’re dealing with severe depression, always consult with a physician before pursuing any course of treatment.</p>
+
+      <h4>Anxiety Benefits</h4>
+      <p>In order to maximize anxiety relief with kratom, you will likely be best suited to a strong and sedating strain such as an Borneo or Indo, although other sedating strains can work effectively. In our experience, borneo kratom strains have
+        generally been the most effective for destroying anxiety, stress and restlessness without causing excessive tiredness or brain fog that some varieties of strains like Bali can cause. For those with insomnia in conjunction with anxiety, these
+        strains can also double as a great kratom strain for sleep.</p>
+
+      <h4>Focus and Memory</h4>
+      <p>Unlike traditional medications for focus (Adderall, Ritalin, Vyvanse), the subjective experience of kratom for many is that it appears to dampen psychological background noise resulting from stress, anxiety or excessive
+        excitement/restlessness, thus promoting natural focus ability. In this way it tends to lend itself to a more meditative quality of focus. Typically white and green strains are used for this purpose.</p>
+
+      <h3>Immune System Benefits</h3>
+      <p>The following immunostimulant alkaloids are found in kratom: Isopteropodine, Isorhynchophylline, Isomitraphylline, Mitraphylline. As such, kratom can be effective for boosting the immune system, which can be effective for conditions ranging
+        from the common cold to the flu, and it may have potential to help many more conditions (although little research in this regard has yet been done). Because of this, many have started to take it at the onset of a sickness to reduce its
+        duration (as well as negate some of its symptoms).
+    </div>
+  </section>
+  <hr>
+
+  <section class="features" id="varieties">
+    <div class="container">
+      <h2>Varities of Leaf</h2>
+      <p>
+
+        <h3>Understanding Vein Types</h3>
+        <p>Kratom comes in a seemingly endless number of strains, which are classified by their vein type. Before choosing which to buy it's important to understand the varieties. Keep in mind that the effects can vary by batch and season of
+          harvest, as this is a plant that has natural variance throughout the year.</p>
+
+        <h4>Red Vein</h4>
+        <p>These types of strains are harvested based on the color of the vein of the kratom leaves, and the Red Vein Kratom Strains have the highest levels of 7-hyodroxymitragynine. This color is the most widely available and the best selling one.
+          It's even sold more than the other kratom colors. Red Vein Kratom is great for beginners primarily because it creates a pleasant and calming effect. It also gives peace of mind and a feeling of optimism and well-being. This color helps
+          people suffering from insomnia as well because it promotes sleep. The red vein can relieve pain and relax your body.</p>
+
+        <p>Red vein kratom is one of the most popular due to its natural tendency toward higher levels of 7-hydroxymitragynine, which leads to impressive pain-killing effects, sedation, as well as anxiety and stress relief. Red veins also tends to
+          be less at the mercy of individual brain chemistry; whereas white and green vein strains often effect people variably.</p>
+
+        <h4>Green Vein</h4>
+        <p>Green Kratom Strains are considered the opposite of Red Vein Strains because they don't have sedative effects. They may also help boost your immune system. This kratom vein is more moderate for everyday use. This color is the most subtle
+          of the three kratom types. The Green Vein Kratom can be utilized in therapies for pain and other forms of discomfort because it does not cause drowsiness. It can also be combined with the other kratom vein colors as it provides a more
+          sophisticated effect and creates a more rounded flavor.</p>
+
+        <p>For those who prefer neither the sedation of red veins, or the stimulation of white veins, green vein kratom may be the best solution. Green vein strains are (on average) much more moderate in their effects than other the other vein
+          varieties and can provide the best of both worlds, making them commonly used as a daily kratom. However, green veins tend to be much more easily influenced by individual strain differences, making them the most variable vein type in regard
+          to effects. Some green vein strains may also provide nootropic effects, and are generally less at the whim of personal brain chemistry than white vein strains tend to be.</p>
+
+        <h4>White Vein</h4>
+        <p>White Vein Kratom Strains are almost similar to Green Vein Strains when it comes to potency. They have one of the lower levels of 7-hydroxymitragynine but have a variety of benefits. These benefits include cognitive enhancement and mood
+          enhancing for depression and anxiety. This color is the most euphoric and stimulating of all the three kratom types. It can be a substitute for coffee for cheerfulness, alertness, and concentration. Busy people can take the white vein
+          kratom to increase motivation, stamina, and concentration. For those who feel gloomy and exhausted, this kratom color gives the best relief results.</p>
+
+        <p>Despite the lower amount of 7-hydroxymitragynine found in white vein strains, this vein type should not be treated lightly. White vein kratom has a very strong following, and many have found it very effective for conditions such as
+          depression and lack of focus/energy. Of all the vein types, white vein shows the most potential as a nootropic (cognition enhancing) substance. Many have found that using this vein type first thing in the morning to be a great substitute
+          for coffee due to it's clean effects on alertness and focus.</p>
+
+        <h3>How to dose</h3>
+        <p>Dosage has been a key factor for those looking for specific effects. By dosing too low, the medicinal capabilities are nulled, while dosing too high can often lead to relatively harmless, but potentially unpleasant side-effects, such as
+          the "wobbles" and minor nausea. It should be noted that due to varying potency between strains and plants, this estimate is in no way standardized, instead it an estimate based on historical and experiential reports. Doses at the the
+          higher end of the spectrum are also much more likely to cause side-effects, depending upon the strain.</p>
+        <p>Something that is frequently encountered with a variety of strains is the difference in effects at differing doses. Although this varies depending upon the strain and where you buy kratom, typically, lower doses are relatively more
+          stimulating than higher doses; while the cause of this is not well known, it likely has to do with the the diminishing returns of stimulating alkaloids in comparison to 7-hydroxymitragynine.</p>
+        <p>
+          <b id="dosing">Dosage by Grams</b>
+          <ul>
+            <li>Mild: 1 - 2 grams</li>
+            <li>Moderate: 2 - 4.5 grams</li>
+            <li>Strong: 4.5 - 8 grams</li>
+            <li>Experienced: 8 - 12 grams</li>
+          </ul>
+        </p>
+        <p>
+          <b>Dosage by Teaspoon</b>
+          <ul>
+            <li>Mild: .5 - 1 tsp</li>
+            <li>Moderate: 1 - 2 tsp</li>
+            <li>Strong: 2 - 3.5 tsp</li>
+            <li>Experienced: 3 - 5 tsp</li>
+          </ul>
+        </p>
+
+        <p>
+          <b>Dosage Intervals</b>
+          <p>For best effect, many have found that this plant should not be taken in high doses regularly, as some of the medicinal effects can diminish. However, those who use this plant to combat chronic pain may find this inevitable, as pain
+            doesn’t operate in a convenient time-cycle.</p>
+        </p>
+
+        <p>
+          <b>In Regard to Food</b>
+          <p>As plain leaf has to be digested in order to have medicinal benefit, many have found it to be best taken on an empty stomach, as this will ensure the effects are delivered quickly and reliably. In addition to taking kratom on an empty
+            stomach, many have found that some foods seem to not only delay the effects of kratom, but nullify them almost entirely. Because eating is a necessity, it may not always be possible to use it in this manner; for this reason, many have
+            turned to kratom tea to deliver effects more quickly and reliably</p>
+        </p>
+    </div>
+  </section>
+  <hr>
+
+  <section class="features" id="extracts">
+    <div class="container">
+      <h2>All About Extracts</h2>
+      <h3>Types and Strengths</h3>
+      <p>
+        <ul>
+          <li><b>15x Extract</b>: this is a mild product with minimal purification processing. It's typically the most affordable type and is especially useful for those who are just starting to experiment with extracts. It is commonly made using
+            medium proof ethyl alcohol and water. <br><br>Dosage: 100mg - 1000mg.<br><br></li>
+          <li><b>20x Extract</b>: this is a moderate product, which typically starts as a 15x and is further processed to increase purity. It is commonly made using high proof ethyl alcohol but has been clarified to remove some crude elements, such
+            as chlorophyll. <br><br>Dosage: 100mg - 1000mg.<br><br></li>
+          <li><b>40x Extract</b>: this is a strong product that is typically made using a A/B chemical process that extracts a minimal amount of crude elements while retaining a full spectrum of alkaloids. It is typically twice as strong by weight
+            compared to 20x extracts. <br><br>Dosage: 75mg - 500mg.<br><br></li>
+          <li><b>60x Extract</b>: this is an ultra high purity product made using a complex chemical process similar to A/B, however details about the process remain trade secrets for the very few labs that produce this exceptional compound. It can
+            be up to ten times as strong as a 20x.<br><br>Dosage: 50mg - 250mg.<br><br></li>
+        </ul>
+      </p>
+    </div>
+  </section>
+  <hr>
+
+  <section class="features" id="alkaloids">
+    <div class="container">
+      <h2>Alkaloid Profile</h2>
+      <p>The differences in alkaloid profile are what make each strain unique and effective in quite different ways, but there is still much research to be done until we have a complete understanding of alkaloid effects, and an alkaloid profile of
+        each strain, region and vein color. The reason for the difference in effects from strain to strain is the variability of kratom’s alkaloids; in fact, there are over 28 identified alkaloids found within the plant with different half-lives and
+        durations. For more information on these alkaloids, their effects, and their content (% of total alkaloid weight, one standard deviation), as follows:</p>
+      <p>
+        <ul>
+          <li>7-hydroxymitragynine – Analgesic/painkiller (opiod receptor agonist), antidiarrheal, antitussive – 1.5 – 2.5%</li>
+          <li>Mitragynine – Analgesic/painkiller (opiod receptor agonist), antidiarrheal, antitussive, adrenergic receptor agonist (mild stimulant), antimalarial – 40 – 75% [Lowest recorded content: 12%]</li>
+          <li>Speciogynine – Smooth Muscle Relaxer – 6.5 – 7.2%</li>
+          <li>Mitraphylline – Muscle relaxer, vasodilator, anti-hypertensive, anti-amnesic, immune system stimulant, anti-leukemic – less than 1%</li>
+          <li>Epicatechin (EGC) – Antioxidant, antiviral, anti-mutagenic, anti-leukemic, anti inflammatory, anti-diabetic. Commonly found in green tea. – 1%</li>
+          <li>9-Hydroxycorynantheidine – Painkiller/analgesic – 1%</li>
+          <li>Corynantheidine – Mu opiod Antagonist – less than 1%</li>
+          <li>Isomitraphylline – Immune System Stimulant – less than 1%</li>
+          <li>Isomitrafoline – Immune System Stimulant – less than 1%</li>
+          <li>Isorhynchophylline – Immune System Stimulant – less than 1%</li>
+          <li>Isopteropodine – Immune System Stimulant – less than 1%</li>
+          <li>Ciliaphylline – Analgesic, antitussive – less than 1%</li>
+          <li>Corynoxine A – Dopamine Mediator – less than 1%</li>
+          <li>Corynoxine B – Dopamine Mediator – less than 1%</li>
+          <li>Ajmalicine – Sedative (Anti-Adrenergic), increase blood flow to brain, smooth muscle relaxer – less than 1%</li>
+          <li>Rhynchophylline – Anti-inflammatory, vasodilator, anti-hypertensive – less than 1%</li>
+          <li>Speciociliatine – Mild opiod receptor agonist – less than 1%</li>
+          <li>Speciophylline – Anti-leukemic – less than 1%</li>
+          <li>Tetrahydroalstonine – Anti-adrenergic, lowers blood sugar – less than 1%</li>
+        </ul>
+      </p>
+    </div>
+  </section>
+  <hr>
+
+  <section class="features" id="references">
+    <div class="container">
+      <h2>References</h2>
+      <p>
+        <ol>
+          <li>Hassan, Z; Muzaimi, M; Navaratnam, V; Yusoff, N. H; Suhaimi, F. W; Vadivelu, R; Vicknasingam, B. K; Amato, D; von Hörsten, S; Ismail, N. I; Jayabalan, N; Hazim, A. I; Mansor, S. M; Müller, C. P (2013). "From Kratom to mitragynine and
+            its derivatives". Neuroscience & Biobehavioral Reviews. 37 (2): 138–51. doi:10.1016/j.neubiorev.2012.11.012. PMID 23206666.</li>
+
+          <li>Rech, MA; Donahey, E; Cappiello Dziedzic, JM; Oh, L; Greenhalgh, E (February 2015). "New drugs". Pharmacotherapy. 35 (2): 189–97. doi:10.1002/phar.1522. PMID 25471045.</li>
+
+          <li>Fluyau, D; Revadigar, N (2017). "Biochemical Benefits, Diagnosis, and Clinical Risks Evaluation of Kratom". Frontiers in Psychiatry. 8: 62. doi:10.3389/fpsyt.2017.00062. PMC 5402527. PMID 28484399.</li>
+
+          <li>Eisenman, Sasha W. (2014). "Chapter 5. The Botany of Mitragyna speciosa (Korth.) Havil. and Related Species". In Raffa, Robert B. Kratom and Other Mitragynines: The Chemistry and Pharmacology of Opioids from a Non-Opium. CRC Press. pp.
+            57–76. ISBN 978-1-4822-2519-8.</li>
+
+          <li>"Kratom profile (chemistry, effects, other names, origin, mode of use, other names, medical use, control status)". Page last updated 8 January 2015: European Monitoring Centre for Drugs and Drug Addiction. Retrieved 12 September 2016.</li>
+
+          <li>Warner ML, Kaufman NC, Grundmann O (2016). "The pharmacology and toxicology of kratom: from traditional herb to drug of abuse". Int. J. Legal Med. (Review). 130 (1): 127–38. doi:10.1007/s00414-015-1279-y. PMID 26511390.</li>
+
+          <li>Adkins, Jessica E.; Edward W. Boyer; Christopher R. McCurdy (2011-05-01). "Mitragyna speciosa, a psychoactive tree from Southeast Asia with opioid activity". Current Topics in Medicinal Chemistry. 11 (9): 1165–75.
+            doi:10.2174/156802611795371305. PMID 21050173.</li>
+
+          <li>Singh, Darshan; Narayanan, Suresh; Vicknasingam, Balasingam (September 2016). "Traditional and non-traditional uses of Mitragynine (Kratom): A survey of the literature". Brain Research Bulletin. 126 (Pt 1): 41–46.
+            doi:10.1016/j.brainresbull.2016.05.004. PMID 27178014.</li>
+
+          <li>Suhaimi FW, Yusoff NH, Hassan R, Mansor SM, Navaratnam V, Müller CP, Hassan Z (2016). "Neurobiology of Kratom and its main alkaloid mitragynine". Brain Res Bull. Mar 25 (Pt 1): 29–40. doi:10.1016/j.brainresbull.2016.03.015. PMID
+            27018165.</li>
+
+          <li>Prozialeck, WC; Jivan, JK; Andurkar, SV (2012). "Pharmacology of kratom: an emerging botanical agent with stimulant, analgesic, and opioid-like effects". The Journal of the American Osteopathic Association. 112 (12): 792–99. PMID
+            23212430.</li>
+
+          <li>Takayama, Hiromitsu; et al. (2002). "Studies on the Synthesis and Opioid Agonistic Activities of Mitragynine-Related Indole Alkaloids: Discovery of Opioid Agonists Structurally Different from Other Opioid Ligands". Journal of Medicinal
+            Chemistry. 45 (9): 1949–56. doi:10.1021/jm010576e. PMID 11960505</li>
+        </ol>
+      </p>
+    </div>
+  </section>
