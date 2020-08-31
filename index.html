@@ -192,27 +192,72 @@ blockquote {
     margin-bottom: 0; }
 
 table {
-  padding: 0;border-collapse: collapse; }
+    border: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
   table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
+    border: 1px solid #ddd;
+    padding: 5px;
+		background: #fff;
+
+  }
+
+  table th, table td {
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  table th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+
+   #card table {
+      border: 0;
+    }
+
+   #card table thead {
+      display: none;
+    }
+
+   #card table tr {
+      margin-bottom: 20px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+	 box-shadow: 2px 2px 1px #dadada;
+
+    }
+
+   #card table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+    }
+
+   #card table td:last-child {
+      border-bottom: 0;
+    }
+
+   #card table td::before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
       font-weight: bold;
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
+    }
+    	#card	tbody{
+			line-height:0!important;
+		}
+
+  }
 
 img {
   max-width: 100%;
